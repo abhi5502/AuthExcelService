@@ -1,0 +1,6 @@
+@AuthExcelService.API_HostAddress = http://localhost:5134
+
+GET {{AuthExcelService.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

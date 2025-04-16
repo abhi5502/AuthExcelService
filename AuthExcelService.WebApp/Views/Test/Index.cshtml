@@ -1,0 +1,23 @@
+﻿@model List<dynamic>
+
+<h1>Test View</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Property 1</th>
+            <th>Property 2</th>
+            <th>Property 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Property1</td>
+                <td>@item.Property2</td>
+                <td>@item.Property3</td>
+            </tr>
+        }
+    </tbody>
+</table>
